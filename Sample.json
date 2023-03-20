@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": "Scott Polacek",
+      "title": "Jayson Tatum Wows Fans, Wins NBA All-Star Game MVP as Team Giannis Tops Team LeBron",
+      "description": "The dynasty is over. Team LeBron lost its undefeated mark and fell to 5-1 in All-Star Games where the captains selected their squads in a draft, as Team…",
+      "url": "https://bleacherreport.com/articles/10066226-jayson-tatum-wows-fans-wins-nba-all-star-game-mvp-as-team-giannis-tops-team-lebron",
+      "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1676865484/brf9ai5wqg55szmig4ih.jpg",
+      "publishedAt": "2023-02-20T04:10:19Z",
+      "content": "Jesse D. Garrabrant/NBAE via Getty Images\r\nThe dynasty is over.\r\nTeam LeBron lost its undefeated mark and fell to 5-1 in All-Star Games where the captains selected their squads in a draft, as Team Gi… [+4081 chars]"
+    },
+    {
+      "source": { "id": "espn", "name": "ESPN" },
+      "author": "Dave McMenaminESPN Staff Writer ",
+      "title": "LeBron James prepares to push Lakers 'to make the playoffs'",
+      "description": "Calling the rest of the Lakers' schedule \"23 of the most important games of my career, for a regular season,\" Los Angeles star LeBron James appeared committed to push his club into the postseason, when speaking to reporters at the All-Star Game Sunday.",
+      "url": "http://espn.go.com/nba/story/_/id/35698518/lebron-james-prepares-push-lakers-make-playoffs",
+      "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0220%2Fr1133940_1296x729_16%2D9.jpg",
+      "publishedAt": "2023-02-20T00:46:00Z",
+      "content": "SALT LAKE CITY -- Twenty years into his heralded time in the NBA, LeBron James didn't mince words when asked about the challenge ahead for the Los Angeles Lakers in order to secure a postseason spot.… [+4233 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "McClung steals show at NBA Slam Dunk Contest",
+      "description": "Watch as Philadelphia 76ers' Mac McClung, who has only played in two NBA games, steals the show with some spectacular slam dunks at the NBA All-Star Weekend.",
+      "url": "http://www.bbc.co.uk/sport/av/basketball/64696407",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/13BED/production/_128677808_p0f433nc.jpg",
+      "publishedAt": "2023-02-19T23:37:15.8367557Z",
+      "content": "Watch as Philadelphia 76ers' Mac McClung, who has only played in two NBA games, steals the show with some spectacular slam dunks at the NBA All-Star Weekend.\r\nHe beat New Orleans Pelicans' Trey Murph… [+170 chars]"
+    },
+    {
+      "source": { "id": "four-four-two", "name": "FourFourTwo" },
+      "author": "Ben Hayward",
+      "title": "Manchester City striker Erling Haaland is now worth €1 billion, his agent claims",
+      "description": "Erling Haaland has scored 31 goals in 32 games since signing for Manchester City and his value will continue to rise, his agent says",
+      "url": "https://www.fourfourtwo.com/news/manchester-city-striker-erling-haaland-is-now-worth-euro1-billion-his-agent-claims",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/5ZxtjAC3wvE6VxLTUecxkP-1200-80.jpg",
+      "publishedAt": "2023-02-19T20:55:02Z",
+      "content": "Manchester City striker Erling Haaland is now worth €1 billion, his agent has claimed.\r\nHaaland moved to City in the summer from Borussia Dortmund and has scored an amazing 31 goals in 32 games for P… [+726 chars]"
+    },
+    {
+      "source": { "id": "polygon", "name": "Polygon" },
+      "author": "Owen S. Good",
+      "title": "Why PUBG and Call of Duty’s makers think extraction shooters are the next big thing",
+      "description": "Krafton, the parent company of PUBG: Battlegrounds, told investors on Feb. 8 that PUBG Studios was at work on an extraction shooter, which seems to be the next hot genre awaiting free-to-play video games.",
+      "url": "https://www.polygon.com/23604742/extraction-shooter-battle-royale-pubg-fortnite-call-of-duty-dmz",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/U0F2wlMfucvGMGeSNT5lpNstj1M=/0x0:2000x1047/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22722785/TAEGO_key_art.jpg",
+      "publishedAt": "2023-02-19T16:00:00Z",
+      "content": "Tucked inside a report to investors, one sees the plans PUBG: Battlegrounds publisher Krafton has made to extricate itself from a battle royale market it helped create, but which seems to be plateaui… [+6256 chars]"
+    },
+    {
+      "source": { "id": "four-four-two", "name": "FourFourTwo" },
+      "author": "Tom Hancock",
+      "title": "WATCH: Last-gasp Lionel Messi free-kick seals PSG win in dramatic clash with Lille",
+      "description": "Messi rescued PSG from going four games without a win – but Neymar's nasty-looking injury put a dampener on the victory",
+      "url": "https://www.fourfourtwo.com/news/watch-last-gasp-lionel-messi-free-kick-seals-psg-win-in-dramatic-clash-with-lille",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/q4cct85VZ5ae5XQjaBYwDV-1200-80.jpg",
+      "publishedAt": "2023-02-19T14:35:11Z",
+      "content": "Lionel Messi's 95th-minute free-kick secured all three points for PSG (opens in new tab) in an epic Ligue 1 encounter with Lille – but the win was marred by a nasty-looking injury to Neymar.\r\nGoals f… [+1616 chars]"
+    },
+    {
+      "source": { "id": "polygon", "name": "Polygon" },
+      "author": "Nicole Carpenter",
+      "title": "GameStop has a robbery problem and employees want change",
+      "description": "GameStop has been targeted in a series of robberies over the past few months, and employees blame some of corporate’s cost-cutting measures.",
+      "url": "https://www.polygon.com/23603187/gamestop-robbery-problem-corporate-policy",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/TBhJy6nU2ibeB-Hl0V9fs2GhWfg=/0x0:3500x1832/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/24438440/1304134003.jpg",
+      "publishedAt": "2023-02-17T16:30:00Z",
+      "content": "At least 12 GameStop stores in the southern California area were targeted in armed robberies in early February, with thieves seeking out expensive gaming consoles that were in limited supply in previ… [+4994 chars]"
+    },
+    {
+      "source": { "id": "the-hindu", "name": "The Hindu" },
+      "author": "The Hindu",
+      "title": "In search of gold: On Tokyo Olympics",
+      "description": "The Olympic Games remain the greatest sporting event for fans and athletes alike",
+      "url": "https://www.thehindu.com/opinion/editorial/in-search-of-gold-the-hindu-editorial-on-tokyo-olympics-2021/article35478354.ece",
+      "urlToImage": "https://www.thehindu.com/static/theme/default/base/img/og-image.jpg",
+      "publishedAt": "2021-07-22T18:32:00Z",
+      "content": "A medal can lose its lustre but the athletes sporting immortality is set in stone, such is the enduring allure of triumphs at the Olympics. Even a participant without any titles, is referred to as an… [+2521 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "Five CSK games only hardcore fans will remember | ESPNcricinfo.com",
+      "description": "From throwing a surprise in the batting order to smashing sixes after sixes, CSK have done it all | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28974528/five-csk-games-only-hardcore-fans-remember",
+      "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219712_1296x729.jpg",
+      "publishedAt": "2020-03-31T10:23:03Z",
+      "content": "If you're a Chennai Super Kings supporter, you'll remember MS Dhoni's sensational 29-ball 54 not out against Kings XI Punjab in Dharamsala in 2010 and that rare, pumped-up celebration where he jabbed… [+4410 chars]"
+    },
+    {
+      "source": { "id": "the-sport-bible", "name": "The Sport Bible" },
+      "author": "Ryan Sidle",
+      "title": "Bury FC Have Been Expelled From The EFL",
+      "description": "The League One side have had all of their games suspended up to now but have no failed to meet a second deadline to sell the club.",
+      "url": "http://www.thesportbible.com/football/news-bury-fc-have-been-expelled-from-the-efl-20190827",
+      "urlToImage": "http://beta.ems.ladbiblegroup.com/s3/content/808x455/0bb079b75d654f14eec508e0ffc957eb.png",
+      "publishedAt": "2019-08-27T22:16:21Z",
+      "content": "League One club Bury FC have been hit with the devastating news that their EFL membership has been withdrawn after owner Steve Dale failed to find a buyer for the club buy the 5pm deadline on Tuesday… [+2924 chars]"
+    }
+  ]
+}

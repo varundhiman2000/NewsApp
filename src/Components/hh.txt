@@ -1,0 +1,152 @@
+ static defaultProps={
+   country:"in",
+   pageSize:9
+  }
+  static propTypes={
+   country:PropTypes.string,
+   pageSize:PropTypes.number,
+  }
+  `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=business&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&page=1&pagesize=${this.props.pageSize}`
+   
+fetch{// let url =`https://newsapi.org/v2/everything?q=apple&from=2023-02-21&to=2023-02-21&sortBy=popularity&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&page=1&pagesize=${this.props.pageSize}`;}
+
+next{ let url = `https://newsapi.org/v2/everything?q=apple&from=2023-02-21&to=2023-02-21&sortBy=popularity&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&page=${this.state.page + 1} &pagesize=${this.props.pageSize}`;}
+
+previous{// let url = `https://newsapi.org/v2/everything?q=apple&from=2023-02-21&to=2023-02-21&sortBy=popularity&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&page=${ this.state.page - 1 }&pagesize= ${this.props.pageSize}`;}
+
+
+business
+entertainment
+general
+health
+science
+sports
+technology
+
+component did mout{
+   // let url="https://saurav.tech/NewsAPI/top-headlines/category/health/in.json"
+    // this.setState({loading:true})
+    // let data = await fetch(url);
+    // if (data.ok) {
+    // let parsedData = await data.json();
+    // // console.log(parsedData);
+    // this.setState({
+    //   articles: parsedData.articles,
+    //   totatlResults: parsedData.totatlResults,
+    //   loading:false
+    // });
+} another method={ //  async componentDidMount(){
+  //  await fetch('https://newsapi.org/v2/everything?q=tesla&from=2023-01-21&sortBy=publishedAt&apiKey=66351c0a7bf14d07a0a5c42787d39a7f')
+  //   .then(response => response.json())
+  //   .then((data) =>{let p=data.articles
+  //     this.setState({articles:p})
+
+  // });}}
+
+  next{
+      //   if(!(this.state.page + 1 >Math.ceil(this.state.totatlResults / this.props.pageSize))){
+    //   let url =  `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&pagesize=${this.props.pageSize}&page=${this.state.page + 1} `;
+    //   console.log("next");
+    //   this.setState({
+    //     loading:true
+    // })
+    //   let data = await fetch(url);
+    //   let parsedData = await data.json();
+      // this.setState({
+      //   articles: parsedData.articles,
+      //   page: this.state.page + 1,
+      //   loading:false
+      // });
+  }
+
+  previous{
+    // let url = `
+    // https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=66351c0a7bf14d07a0a5c42787d39a7f&pagesize=${this.props.pageSize}&page=${ this.state.page - 1 }`;
+    // console.log("back");
+    // this.setState({loading:true})
+    // let data = await fetch(url);
+    // let parsedData = await data.json();
+    // this.setState({
+    //   articles: parsedData.articles,
+    //   page: this.state.page - 1,
+    //   loading:false
+    // });
+  }
+
+
+  using next-previous
+
+      <div className="container my-4">
+        <h1 className="text-center" style={{ margin: "35px 0px" }}>
+          BBC NEWS -Top `${this.capitalizeFirstLetter(this.props.category)} Headdlines 
+        </h1>
+       {this.state.loading && <Spinner></Spinner>
+
+        <div
+          className="text-center"
+          id="dhiman"
+          style={{ fontSize: "1.7rem" }}
+        ></div>
+        <div className="row">
+          {!this.state.loading &&
+            this.state.articles.map((element) => {
+              return (
+                <div className="col-md-4" key={element.url}>
+                  <Newsitem
+                    title={element.title ? element.title.slice(0, 35) : ""}
+                    discription={
+                      element.description
+                        ? element.description.slice(0, 88)
+                        : ""
+                    }
+                    imgUrl={
+                      element.urlToImage
+                        ? element.urlToImage
+                        : "https://images.livemint.com/img/2022/04/21/600x338/long_covid_symptoms_1650540839356_1650540839488.jpg"
+                    }
+                    newsUrl={
+                      element.url
+                        ? element.url
+                        : "https://www.livemint.com/news/india/long-covid-more-severe-in-women-than-men-suggests-study-11650538683775.html"
+                    }
+                    author={
+                      element.author ? element.author.slice(0, 20) : " Unknown"
+                    }
+                    publishedAt={
+                      element.publishedAt
+                        ? new Date(element.publishedAt).toUTCString()
+                        : "Not Defined"
+                    }
+                    source={
+                      element.source.name
+                        ? element.source.name.slice(0, 30)
+                        : "Unknown"
+                    }
+                    //
+                  ></Newsitem>
+                </div>
+              );
+            })}
+        </div>
+        <div className="d-flex justify-content-around">
+          <button
+            disabled={this.state.page <= 1}
+            type="button"
+            className="btn btn-dark "
+            onClick={this.previousClick}
+          >
+            Previous
+          </button>
+          <button
+            disabled={
+              this.state.page + 1 >
+              Math.ceil(this.state.totatlResults / this.props.pageSize)
+            }
+            type="button"
+            className="btn btn-dark"
+            onClick={this.nextClick}
+          >
+            Next
+          </button>
+        </div>
+      </div>
